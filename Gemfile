@@ -1,0 +1,12 @@
+source 'http://rubygems.org'
+
+gem 'rspec', '~> 3.2.0', :require => 'spec/expectations'
+gem 'watir-webdriver'
+gem 'pry'
+gem 'cucumber', '~> 1.3.19'
+gem 'crudecumber'
+gem 'rake'
+gem 'watir-scroll'
+gem 'headless'
+gem 'httparty'
+gem 'os'

@@ -1,0 +1,7 @@
+default: -t ~@wip -t ~@long_test
+debug: DEBUG=true -t ~@wip -t ~@long_test
+dave: CURRENT_USER=dave -t ~@wip -t ~@long_test
+full: -t ~@wip
+headless: PHANTOMJS=phantomjs -t ~@wip -t ~@flaky -t ~@long_test
+full_headless: PHANTOMJS=phantomjs -t ~@wip -t ~@flaky
+report: -t ~@wip -t ~@long_test --format html --out reports.html
