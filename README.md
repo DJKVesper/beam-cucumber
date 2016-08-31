@@ -16,3 +16,6 @@ Use of PATH variables manipulation is required
   * Eg. `$ cd /Users/yourusername/Downloads/beam-cucumber`
 3. Run a `bundle`
 4. Run `cucumber`
+
+
+An example of it running can be found here: https://youtu.be/R6P5FaRoUmg
