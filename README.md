@@ -67,7 +67,7 @@ This section should take you setting the project ready to run.
 
 
 ### Run the project
-    Run `cucumber`
+   `$ cucumber`
 
 
 ### Example Video
