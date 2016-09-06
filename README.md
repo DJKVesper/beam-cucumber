@@ -22,10 +22,12 @@ This section should take you setting the project ready to run.
    ```
    $ cd Documents
    ```
+   
 * Clone the project to this folder
   ```
   $ git clone https://github.com/DJKVesper/beam-cucumber.git
   ```
+  
 * Once Cloned, it's best to set up the Ruby environment and gems, I use RVM and Bundler to do this. Please Follow the instructions in here to see what's best for you
 
   https://rvm.io/rvm/install
@@ -36,24 +38,29 @@ This section should take you setting the project ready to run.
   $ rvm install ruby-2.2.2
   $ rvm use rubies 2.2.2
   ```
+  
 * Create and use gemset to use for the project
   ```
   $ rvm gemset create beam
   $ rvm gemset use beam
   ```
+  
 * Install Bundler
   ```
   $ gem install bundler
   ```
+  
 * Install the required gems for the project (These are contained in the GemFile)
   ```
   $ bundle install
   ```
+  
 * Go into the project folder and locate the `credentials.yml` file
   * This should be located in
   ```
   beam-cucumber/features/support/data
   ```
+  
 * Replace `your@email_address` and `your_password` with your own (or a test account)
 
 
